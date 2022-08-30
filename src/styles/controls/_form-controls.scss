@@ -1,0 +1,60 @@
+@layer components {
+  .input-control {
+    @apply relative inline-flex w-full rounded-lg leading-none transition-colors 
+      ease-in-out placeholder-gray-400 text-gray-700 bg-gray-50 border 
+      border-gray-300 hover:border-blue-400 focus:outline-none focus:border-blue-400 
+      focus:ring-blue-400 focus:ring-2 focus:ring-opacity-30 p-3 text-sm disabled:bg-slate-50 
+      disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none;
+  }
+  .input-control-success {
+    @apply relative inline-flex w-full rounded-lg leading-none transition-colors ease-in-out 
+       text-green-900 bg-gray-50 border border-green-300 
+      hover:border-green-400 focus:outline-none focus:border-green-400 focus:ring-green-400 
+      focus:ring-2 focus:ring-opacity-30 p-2.5 text-base;
+  }
+
+  .input-control-error {
+    @apply relative inline-flex w-full rounded-lg leading-none transition-colors ease-in-out
+       placeholder-red-700 text-red-900 bg-gray-50 border border-red-300 hover:border-red-400 
+       focus:outline-none focus:border-red-400 focus:ring-red-400 focus:ring-2 focus:ring-opacity-30 
+       p-2.5 text-base;
+  }
+  .label-inline {
+    @apply whitespace-nowrap mr-8  w-72 block text-right;
+  }
+  .input-control-filter {
+    @apply relative inline-flex w-full rounded leading-none transition-colors 
+          ease-in-out placeholder-gray-400 placeholder:font-light text-gray-700 bg-gray-50 border 
+          border-gray-300 hover:border-blue-400 focus:outline-none focus:border-blue-400 
+          focus:ring-blue-400 focus:ring-2 focus:ring-opacity-30 p-2 text-sm mx-2;
+  }
+
+  .input-file-control {
+    @apply block w-full text-sm text-gray-800 bg-gray-50 rounded-lg border border-gray-300 
+          cursor-pointer focus:outline-none focus:border-blue-400 focus:ring-blue-400 focus:ring-2 focus:ring-opacity-30;
+  }
+
+  .form-input {
+    @apply rounded-lg placeholder:text-xs placeholder:text-gray-400 bg-white;
+  }
+
+  .file-upload-btn {
+    @apply rounded text-emerald-700 hover:bg-emerald-600 border-emerald-500 
+      hover:border-emerald-500 active:bg-emerald-700 hover:text-gray-100;
+  }
+
+  .error-msg {
+    @apply text-red-600 text-xs ;
+  }
+
+  .form-group {
+    @apply mb-4;
+  }
+
+  .form-label {
+    @apply w-48 text-right;
+  }
+  .form-control{
+    @apply w-full 2xl:w-2/3
+  }
+}

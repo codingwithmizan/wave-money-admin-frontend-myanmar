@@ -1,0 +1,17 @@
+@import './responsive';
+@import "./utils";
+
+.bg-login-right {
+  @include addBgPattern("@/assets/images/dark-honeycomb.png");
+}
+
+.bg-login-left {
+  @include addBgPattern("@/assets/images/what-the-hex.png");
+}
+
+.otc-filter, .reasons {
+  @include scrollbarCustomization(5px, 10px, rgb(2 132 199), rgb(3 105 161));
+}
+
+
+

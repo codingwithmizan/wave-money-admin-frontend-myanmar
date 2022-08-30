@@ -1,0 +1,18 @@
+@layer components {
+    .nested-table {
+      tr {
+        td {
+          @apply py-3 border-b;
+          &:first-child {
+            @apply w-60 text-sky-700  pl-6;
+          }
+        }
+        &:last-child {
+          td {
+            @apply border-b-0;
+          }
+        }
+      }
+    }
+  }
+  

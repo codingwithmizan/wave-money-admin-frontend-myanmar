@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+.wave-money-text,
+.ant-input::placeholder {
+  font-size: 14px;
+}
+.ant-card-head-title,
+.wave-money-title {
+  font-size: 1.3rem;
+}
+
+.table-expand-data,
+.menu-item, .ant-menu-title-content {
+  font-size: 13px;
+}
+.ant-checkbox-group label {
+  font-size: 0.8rem;
+}
+.sub-menu-item {
+  font-size: 12px;
+}
+// .ant-table-thead > tr > th,
+// .ant-table-tbody > tr > td {
+//   font-size: 13.5px;
+// }
+
+@media screen and (max-width: 1600px) {
+  body,
+  .wave-money-text,
+  .ant-input::placeholder {
+    font-size: 13px;
+  }
+  .ant-table-thead > tr > th,
+  .ant-table-tbody > tr > td {
+    font-size: 12px;
+  }
+  .ant-card-head-title,
+  .wave-money-title {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 1400px) {
+  body,
+  .wave-money-text,
+  .table-expand-data,
+  .ant-input::placeholder,
+  .menu-item
+   {
+    font-size: 12px;
+  }
+  .ant-table-thead > tr > th,
+  .ant-table-tbody > tr > td {
+    font-size: 11px;
+  }
+  .ant-card-head-title,
+  .wave-money-title {
+    font-size: 1.1rem;
+  }
+  .ant-checkbox-group label {
+    font-size: 0.7rem;
+  }
+}
+@media screen and (max-width: 1280px) {
+  body,
+  .wave-money-text,
+  .table-expand-data,
+  .ant-input::placeholder {
+    font-size: 11px;
+  }
+  .ant-table-thead > tr > th,
+  .ant-table-tbody > tr > td {
+    font-size: 10px;
+  }
+  .ant-card-head-title,
+  .wave-money-title {
+    font-size: 1rem;
+  }
+}

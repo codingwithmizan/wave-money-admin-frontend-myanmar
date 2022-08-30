@@ -1,0 +1,50 @@
+@layer components {
+  .btn {
+    @apply font-medium rounded text-base px-5 py-2 text-center mr-2 mb-2 whitespace-nowrap;
+  }
+  .btn-add {
+    @apply flex justify-center text-cyan-700 hover:text-white border border-cyan-700 hover:bg-cyan-800 focus:ring-4 
+          focus:ring-cyan-300 wave-money-text;
+  }
+  .btn-submit {
+    @apply bg-sky-800 hover:bg-sky-700 active:bg-sky-700 focus:bg-sky-700 rounded border-0;
+  }
+  .btn-submit-outline {
+    @apply text-sky-800 hover:text-white border border-sky-800 hover:bg-sky-800 
+          focus:ring-2 focus:ring-sky-200 rounded;
+  }
+  .btn-danger-outline {
+    @apply text-red-700 hover:text-white border border-red-700 hover:bg-red-700 
+          focus:ring-2 focus:ring-red-200 rounded;
+  }
+  .btn-cancel {
+    @apply text-sky-800 hover:text-white border border-sky-800 hover:bg-sky-800 
+    focus:ring-2 focus:ring-sky-200 rounded;
+  }
+  .btn-cancel-secondary {
+    @apply text-sky-200 hover:text-white border border-white hover:bg-sky-800 
+    focus:ring-2 focus:ring-sky-200 rounded focus:text-sky-200 active:text-sky-200;
+  }
+  .btn-export {
+    @apply text-yellow-700 hover:text-white border border-yellow-700 hover:bg-yellow-800 
+          focus:ring-2 focus:ring-yellow-300;
+  }
+  .btn-reset {
+    @apply text-yellow-700 hover:text-white border border-yellow-700 hover:bg-yellow-800 
+          focus:ring-2 focus:ring-yellow-400 active:bg-yellow-600 active:border-yellow-500 focus:border-yellow-500 focus:bg-yellow-700 hover:border-yellow-500 w-20 rounded;
+  }
+  .btn-icon {
+    @apply text-lg mr-1.5 relative top-1.5 2xl:top-1;
+  }
+  .btn-back {
+    @apply text-gray-500  text-sm mt-2;
+  }
+
+  .btn-back-icon {
+    @apply inline-block relative -left-1;
+  }
+
+  .btn-logout {
+    @apply flex justify-center bg-sky-700  py-3 mx-4 rounded text-gray-300 hover:text-gray-50 hover:bg-sky-500;
+  }
+}
